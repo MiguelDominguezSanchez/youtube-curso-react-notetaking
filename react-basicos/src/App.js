@@ -3,12 +3,15 @@ import logo from './logo.svg'
 import Componente from './components/Componente'
 import './App.css'
 import Propiedades from './components/Propiedades'
+import Estado from './components/Estado'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<Estado />
 					<hr />
 					<Propiedades
 						cadena='Esto es una cadena de texto'
