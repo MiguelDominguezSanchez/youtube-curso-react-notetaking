@@ -4,12 +4,15 @@ import Componente from './components/Componente'
 import './App.css'
 import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
+import RenderizadoCondicional from './components/RenderizadoCondicioonal'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<RenderizadoCondicional />
 					<hr />
 					<Estado />
 					<hr />
