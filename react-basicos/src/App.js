@@ -6,12 +6,15 @@ import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
+import Eventos from './components/Eventos'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<Eventos />
 					<hr />
 					<RenderizadoElementos />
 					<hr />
