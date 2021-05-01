@@ -6,7 +6,7 @@ import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
-import Eventos from './components/Eventos'
+import { EventosES6, EventosES7 } from './components/Eventos'
 
 function App() {
 	return (
@@ -14,7 +14,9 @@ function App() {
 			<header className='App-header'>
 				<section>
 					<hr />
-					<Eventos />
+					<EventosES7 />
+					<hr />
+					<EventosES6 />
 					<hr />
 					<RenderizadoElementos />
 					<hr />
