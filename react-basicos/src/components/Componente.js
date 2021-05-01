@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 // Componente funcional en formato de Función Expresada con arrow function
 const Componente = (props) => <h2>{props.msg}</h2>
