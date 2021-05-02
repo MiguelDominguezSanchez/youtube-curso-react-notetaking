@@ -7,12 +7,15 @@ import Estado from './components/Estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
 import { EventosES6, EventosES7, MasSobreEventos } from './components/Eventos'
+import CicloVida from './components/CicloVida'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<CicloVida />
 					<hr />
 					<MasSobreEventos />
 					<hr />
