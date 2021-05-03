@@ -32,7 +32,7 @@ export default class CicloVida extends Component {
 	}
 
 	componentDidUpdate(prevProps, prevState) {
-		console.log(2, 'El estado o  las props del componente han cambiado')
+		console.log(2, 'El estado o las props del componente han cambiado')
 		console.log(prevProps)
 		console.log(prevState)
 	}
@@ -62,7 +62,7 @@ export default class CicloVida extends Component {
 	render() {
 		console.log(
 			4,
-			'El componente se dibuja o  redibuja por algún cambio en el DOM'
+			'El componente se dibuja o redibuja por algún cambio en el DOM'
 		)
 		return (
 			<Fragment>

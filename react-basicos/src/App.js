@@ -8,12 +8,15 @@ import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
 import { EventosES6, EventosES7, MasSobreEventos } from './components/Eventos'
 import CicloVida from './components/CicloVida'
+import AjaxApis from './components/AjaxApis'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<AjaxApis />
 					<hr />
 					<CicloVida />
 					<hr />
