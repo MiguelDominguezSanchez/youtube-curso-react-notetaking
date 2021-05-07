@@ -29,6 +29,7 @@ export default function ScrollHooks() {
 			console.log('Fase de Desmontaje')
 		}
 	})
+
 	return (
 		<Fragment>
 			<h2>Hooks - useEffect y el Ciclo de Vida</h2>

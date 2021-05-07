@@ -11,12 +11,15 @@ import CicloVida from './components/CicloVida'
 import AjaxApis from './components/AjaxApis'
 import ContadorHooks from './components/ContadorHooks'
 import ScrollHooks from './components/ScrollHooks'
+import RelojHooks from './components/RelojHooks'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<RelojHooks />
 					<hr />
 					<ScrollHooks />
 					<hr />
