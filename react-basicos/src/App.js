@@ -13,12 +13,15 @@ import ContadorHooks from './components/ContadorHooks'
 import ScrollHooks from './components/ScrollHooks'
 import RelojHooks from './components/RelojHooks'
 import AjaxHooks from './components/AjaxHooks'
+import HooksPersonalizados from './components/HooksPersonalizados'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<HooksPersonalizados />
 					<hr />
 					<AjaxHooks />
 					<hr />
