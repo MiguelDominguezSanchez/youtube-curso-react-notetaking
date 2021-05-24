@@ -23,7 +23,7 @@ export default function Estilos() {
 				Estilos en línea
 			</h3>
 			<h3 className='bg-react' styles={{ myStyles }}>
-				Estilos en línea
+				Agregando normalize
 				<br />
 				<code>@import-normalize</code>
 			</h3>

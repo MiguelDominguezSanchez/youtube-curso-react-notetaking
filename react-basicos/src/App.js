@@ -17,12 +17,15 @@ import HooksPersonalizados from './components/HooksPersonalizados'
 import Referencias from './components/Referencias'
 import Formularios from './components/Formularios'
 import Estilos from './components/Estilos'
+import ComponentesEstilizados from './components/ComponentesEstilizados'
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<section>
+					<hr />
+					<ComponentesEstilizados />
 					<hr />
 					<Estilos />
 					<hr />
